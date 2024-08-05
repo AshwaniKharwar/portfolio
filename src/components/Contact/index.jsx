@@ -133,10 +133,10 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await emailjs.sendForm(
-        'service_6knfu1v',
-        'template_gii2k3s',
+        "service_6knfu1v",
+        "template_gii2k3s",
         form.current,
-        'vsvJZJPs7wrqEKjHI'
+        "vsvJZJPs7wrqEKjHI"
       )
       console.log(response);
       if (response.status === 200) {
