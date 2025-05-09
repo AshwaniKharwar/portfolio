@@ -104,6 +104,7 @@ const Role = styled.div`
 const Company = styled.div`
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
     color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px){
         font-size: 12px;
@@ -151,7 +152,9 @@ const ExperienceCard = ({ experience }) => {
                 <Image src={experience.img} />
                 <Body>
                     <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
+                    <a href={experience.company_url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                        <Company>{experience.company}</Company>
+                    </a>
                     <Date>{experience.date}</Date>
                 </Body>
             </Top>

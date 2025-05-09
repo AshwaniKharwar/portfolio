@@ -100,7 +100,7 @@ export const skills = [
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
       },
       {
         name: "Postgresql",
@@ -109,7 +109,7 @@ export const skills = [
       {
         name: "Redis",
         image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redis-icon.png",
+          "https://w7.pngwing.com/pngs/326/224/png-transparent-redis-memcached-database-caching-key-value-database-others-miscellaneous-angle-logo.png",
       },
       {
         name: "Prisma",
@@ -125,7 +125,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/git-icon.png",
+          "https://git-scm.com/images/logo@2x.png",
       },
       {
         name: "GitHub",
@@ -135,17 +135,17 @@ export const skills = [
       {
         name: "Docker",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+          "https://w7.pngwing.com/pngs/219/411/png-transparent-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo-cloud-computing-thumbnail.png",
       },
       {
         name: "Postman",
         image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+          "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
       },
       {
         name: "AWS",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+          "https://figmaresource.com/wp-content/uploads/2024/05/AWS-Marketplace-Logo-PNG-to-svg-1.svg",
       },
       {
         name: "CI/CD",
@@ -159,9 +159,10 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "src/images/accountantai_logo.jpeg",
+    img: "src/images/logo.png",
     role: "Software Developer",
     company: "Accountant AI",
+    company_url: "https://accountant-ai.com/",
     date: "Jan 2025 - Present",
     desc: "Working on developing a full-stack accounting automation platform. Designed and optimized database models for scalable data management, developed RESTful and GraphQL APIs using Django, and built intuitive frontend interfaces with React. Also, engineered synchronization solutions for seamless data transfer with Tally. Deployed and maintained applications on AWS infrastructure.",
     skills: [
@@ -173,7 +174,8 @@ export const experiences = [
       "Docker",
       "AWS",
       "CI/CD",
-      "Redis"
+      "Redis",
+      "LLM"
      
     ],
   },
