@@ -195,14 +195,12 @@ export const education = [
     id: 1,
     school: "SRI Krishna Inter College, Hata Deoria",
     date: "May 2017 - Apr 2019",
-    grade: "62.5%",
     degree: "State Board(XII), Science with Computer",
   },
   {
     id: 2,
     school: "SRI Krishna Inter College, Hata Deoria",
     date: "May 2015 - Apr 2017",
-    grade: "68%",
     degree: "State Board(X), Science with Computer",
   },
 ];
